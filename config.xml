@@ -10,7 +10,7 @@
 
         <preference name="phonegap-version" value="3.7.0" />
 
-        <name>HotelApp</name>
+        <name>Sqlite test</name>
 
         <description>
         	Aplicación de prueba de sqlite
