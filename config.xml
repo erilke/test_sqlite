@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "mx.com.idmon.test_sqlite"
+        version     = "1.0.0"
+        versionCode = "1" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.7.0" />
+
+        <name>HotelApp</name>
+
+        <description>
+        	Aplicación de prueba de sqlite
+        </description>
+
+        <author href="http://idmon.com.mx" email="desarrollo@idmon.com.mx">
+        	Edgar García
+        </author>
+
+		<!-- Plugins -->
+        <!--
+		<gap:plugin name="org.apache.cordova.dialogs" />
+		<gap:plugin name="org.apache.cordova.device" />
+		<gap:plugin name="org.apache.cordova.media-capture" />
+		<gap:plugin name="org.apache.cordova.file-transfer" />
+        -->
+        <gap:plugin name="com.millerjames01.sqlite-plugin" version="1.0.1" />
+
+    </widget>
